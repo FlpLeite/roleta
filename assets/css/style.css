@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    align-items: center;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #011728;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.carrinho a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 5px 10px;
+    background: #ed750b;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.intro {
+    background: #4a8ebc;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0e00d8;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.produtos {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produtos img {
+    max-width: 100%;
+}
+
+.produtos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.produtos p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-items {
+    text-align: center; 
+}
+
+.footer-items h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-items ul {
+    list-style-type: none;
+}
+
+.footer-items ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.modal-content {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+    width: 800px;
+    margin-left: -100px;
+    padding-left: 15%;
+}
